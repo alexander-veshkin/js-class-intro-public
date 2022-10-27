@@ -6,9 +6,11 @@
    3) Создайте метод `eats`. Метод должен вывести в консоль `${name} eats food`
 2) Создайте класс `Dog` в файле `dog.js`, который наследуется от `Mammal`
    1) Импортируйте класс `Mammal`
-   2) Добавьте поля: `name`, `owner`
-   3) Конструктор принимает `name`и `owner`
-   4) Добавьте метод `eats`. Метод должен вывести в консоль `${owner}'s dog whos name is ${name} eats chicken`
+   2) Добавьте поля: `name`, `owner`, `age`, `food`    
+   3) Конструктор принимает `name`, `owner`, `age` и `food`   
+   4) Добавьте метод `eats`. Метод должен вывести в консоль `${owner}'s dog whos name is ${name} eats ${food}`
+   5) Добавьте метод `isPuppy`. Метод должен вернуть true, если возраст меньше 7 месяцев   
+   6) Добавьте метод `info`. Метод должен вывести в консоль `Owner: ${owner}, Dog's name: ${name}, isPuppy: ${isPuppy(this.age)}`   
 3) Создайте класс `Cat` в файле `cat.js`, который наследуется от `Mammal`
    1) Импортируйте класс `Mammal` 
    2) Добавьте поля: `name`, `breed`
