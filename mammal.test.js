@@ -1,7 +1,7 @@
 import jest from 'jest'
 import {Parrot} from "./classes/parrot.js";
 
-describe("Testing Parrot class", () => {
+describe("Тесты для класса Parrot", () => {
   let golubchik, kesha
 
   beforeEach(() => {
