@@ -3,14 +3,14 @@
 1) Создайте класс `Mammal` в файле `mammal.js`
    1) Добавьте поля: `name`
    2) Конструктор принимает 1 параметр `name`
-   3) Создайте метод `eats`. Метод должен вывести в консоль `${name} eats food`
+   3) Создайте метод `eats`. Метод должен вернуть строку `${name} eats food`
 2) Создайте класс `Dog` в файле `dog.js`, который наследуется от `Mammal`
    1) Импортируйте класс `Mammal`
    2) Добавьте поля: `name`, `owner`, `age`, `food`    
    3) Конструктор принимает `name`, `owner`, `age` и `food`   
-   4) Добавьте метод `eats`. Метод должен вывести в консоль `${owner}'s dog whos name is ${name} eats ${food}`
+   4) Добавьте метод `eats`. Метод должен вернуть строку `${owner}'s dog whos name is ${name} eats ${food}`
    5) Добавьте метод `isPuppy`. Метод должен вернуть true, если возраст меньше 7 месяцев   
-   6) Добавьте метод `info`. Метод должен вывести в консоль `Owner: ${owner}, Dog's name: ${name}, isPuppy: ${isPuppy(this.age)}`   
+   6) Добавьте метод `info`. Метод должен вернуть строку `Owner: ${owner}, Dog's name: ${name}, isPuppy: ${isPuppy(this.age)}`   
 3) Создайте класс `Cat` в файле `cat.js`, который наследуется от `Mammal`
    1) Импортируйте класс `Mammal` 
    2) Добавьте поля: `name`, `breed`
@@ -29,4 +29,4 @@
 
 ### Практика++
 - Выведите всю информацию в браузере. Файл `index.html` менять нельзя. Писать можно только `index.js`
-- ** Напишите тесты в `mammal.test.js`. Как писать тесты для классов можете посмотреть на [dev.to](https://dev.to/dstrekelj/how-to-test-classes-with-jest-jif) или на [jestjs.io](https://jestjs.io/ru/docs/25.x/es6-class-mocks)
+- Напишите тесты в `mammal.test.js`. Изучите примеры тестов написанные для класса Parrot
