@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200;
+  margin: 0 auto;
+}
+
+* {
+  margin: 20px;
+}
+
+p {
+  background-color: aqua;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  border: 1px solid blue;
+  border-radius: 1em;
+}
+
+.btn_color {
+  background-color: blue;
+  color: blanchedalmond;
+  border-radius: 5em;
+  border: 0;
+  padding: 6px;
+}
+
+/* .methodsBtn {
+    background-color: unset !important;
+    color: unset !important;
+    border-radius: 0 !important;
+    border: 1px solid !important;
+    padding: 6px !important;
+} */
+
+.mtDiv {
+  display: flex;
+  margin-top: 0px;
+  margin: 5px;
+  border: 1ps solid blue;
+}
